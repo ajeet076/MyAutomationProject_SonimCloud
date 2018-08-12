@@ -1,0 +1,1 @@
+# MyAutomationProject_SonimCloud
