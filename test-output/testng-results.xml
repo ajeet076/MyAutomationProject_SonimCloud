@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38572" started-at="2018-08-07T06:42:34Z" finished-at="2018-08-07T06:43:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="38572" started-at="2018-08-07T06:42:34Z" finished-at="2018-08-07T06:43:13Z">
+      <class name="scripts.testHome">
+        <test-method status="PASS" signature="launchSonimCloud()[pri:0, instance:scripts.testHome@5891e32e]" name="launchSonimCloud" is-config="true" duration-ms="14538" started-at="2018-08-07T06:42:34Z" finished-at="2018-08-07T06:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSonimCloud -->
+        <test-method status="PASS" signature="testDevices()[pri:0, instance:scripts.testHome@5891e32e]" name="testDevices" duration-ms="8706" started-at="2018-08-07T06:42:49Z" finished-at="2018-08-07T06:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDevices -->
+        <test-method status="PASS" signature="closeSonimCloud(org.testng.ITestResult)[pri:0, instance:scripts.testHome@5891e32e]" name="closeSonimCloud" is-config="true" duration-ms="262" started-at="2018-08-07T06:42:58Z" finished-at="2018-08-07T06:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDevices status=SUCCESS method=testHome.testDevices()[pri:0, instance:scripts.testHome@5891e32e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSonimCloud -->
+      </class> <!-- scripts.testHome -->
+      <class name="scripts.testCloudValidLogin">
+        <test-method status="PASS" signature="launchSonimCloud()[pri:0, instance:scripts.testCloudValidLogin@cb0ed20]" name="launchSonimCloud" is-config="true" duration-ms="9534" started-at="2018-08-07T06:42:58Z" finished-at="2018-08-07T06:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSonimCloud -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:scripts.testCloudValidLogin@cb0ed20]" name="testValidLogin" duration-ms="5096" started-at="2018-08-07T06:43:07Z" finished-at="2018-08-07T06:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeSonimCloud(org.testng.ITestResult)[pri:0, instance:scripts.testCloudValidLogin@cb0ed20]" name="closeSonimCloud" is-config="true" duration-ms="349" started-at="2018-08-07T06:43:13Z" finished-at="2018-08-07T06:43:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=testCloudValidLogin.testValidLogin()[pri:1, instance:scripts.testCloudValidLogin@cb0ed20] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSonimCloud -->
+      </class> <!-- scripts.testCloudValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
